@@ -75,3 +75,30 @@ git push -u origin main
 …or import code from another repository
 
 You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+
+
+
+Gerar uma nova chave SSH e adicioná-la ao ssh-agent
+
+
+ssh-keygen -t rsa -b 4096 -C "jcsmoreno@yahoo.com"  mesme email git
+
+enter
+frasenha
+2x
+
+
+
+git remote add origin https://github.com/jcsmoreno/modulogit.git
+git branch -M main
+git push -u origin main
+
+
+apos 
+
+git remote
+
+git remote -v 
+
+
+vc nao presta
