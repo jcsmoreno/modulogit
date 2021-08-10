@@ -11,13 +11,10 @@ git config user.email
 git config --list
 
 
-
+vc nao presta
 
 criar repositorio comandos basicos:
 ffff
-
-f
-f
 
 
 git init   -- inicialia um repositorio vazio do t neste caso ( se tiver arquivos ele leva o que esta em conta)
@@ -49,3 +46,32 @@ git checkout master
 
 
 git diff 
+
+git diff --name-only
+
+git diff nome.arq mostra o que apenas alterou aki
+
+
+para voltar somente 1 arquivo
+git checkout HEAD - nome.arq
+
+
+…or create a new repository on the command line
+
+echo "# modulogit" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/jcsmoreno/modulogit.git
+git push -u origin main
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/jcsmoreno/modulogit.git
+git branch -M main
+git push -u origin main
+
+…or import code from another repository
+
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
