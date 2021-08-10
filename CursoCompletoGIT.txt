@@ -105,3 +105,4 @@ Deletar Branches Rmetoos
 
 gir branch
 
+git clone url
