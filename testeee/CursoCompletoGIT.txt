@@ -1,18 +1,23 @@
-Curso de GIT Completo:
-
 git --version
 
-git config --global user.name "Julio Moreno"
+git config --global user.name "Bonieky Lacerda"
 git config --global user.email "jcsmoreno@yahoo.com"
-git config --global core.editor code
+git config --global core.editor sub
+
+
 
 git config user.name
 git config user.email
 git config --list
 
-Criar repositorio comandos basicos:
 
-git init   -- inicializa um repositorio vazio (se tiver arquivos ele leva em conta)
+vc nao presta
+
+criar repositorio comandos basicos:
+ffff
+
+
+git init   -- inicialia um repositorio vazio do t neste caso ( se tiver arquivos ele leva o que esta em conta)
 
 git status
 git add README.dm
@@ -23,12 +28,16 @@ git commit -m "primeiro commmit"
 git log ( a lista de todos os comites do branch)
 
 
-Resolver modicicacoes
+resolver modicicacoes
  
 git branch
+
 git commit -am "kkkk"
+
 git reset --hard e2a3dd3c47f08304e97a2e8b11c0168d1d347ced apaga tudo 
+
 git reset --soft e2a3dd3c47f08304e97a2e8b11c0168d1d347ced
+
 git branch teste
 git branch 
 git checkout teste ( muda de ranch)
@@ -96,12 +105,3 @@ vc nao presta
 
 
 git push origin main
-
-
-git revert --no-edit codigo_commit
-
-
-Deletar Branches Rmetoos
-
-gir branch
-
