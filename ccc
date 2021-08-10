@@ -21,7 +21,7 @@ git init   -- inicialia um repositorio vazio do t neste caso ( se tiver arquivos
 
 git status
 git add README.dm
-git add -A
+git add -a
 
 git commit -m "primeiro commmit"
 
@@ -29,7 +29,7 @@ git log ( a lista de todos os comites do branch)
 
 
 resolver modicicacoes
- 
+
 git branch
 
 git commit -am "kkkk"
@@ -102,6 +102,3 @@ git remote -v
 
 
 vc nao presta
-
-
-git push origin main
